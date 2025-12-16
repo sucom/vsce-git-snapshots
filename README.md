@@ -27,18 +27,22 @@ OR
 
 With Git Snapshots, you’ll never touch the terminal for everyday Git tasks. Your history stays clean, your workflow stays smooth, and your focus stays on building.
 
-- *Quick commit* **( Ctrl + Shift + C )**
+- *Quick commit* **( Ctrl + Shift + C )** | *use status bar icon*
+
   Saves all files, stages everything, commits with auto message `tag@timestamp`.
 
-- *Prompt commit* **( Ctrl + Shift + M )**
+- *Prompt commit* **( Ctrl + Shift + M )** | *use status bar icon*
+
   Same as quick commit, but lets you edit the prefilled message.
 
 - *Auto‑commit* on save with configurable debounce.
 
-- *Create tag* **( Alt + Shift + T )**
+- *Create tag* **( Alt + Shift + T )** | *use status bar icon*
+
   Prompts for a tag name, creates an annotated tag.
 
-- *Create branch* **( Alt + Shift + B )**
+- *Create branch* **( Alt + Shift + B )** | *use status bar icon*
+
   Prompts for a branch name, creates and checks out a new branch.
 
 - *Status bar icons* for all actions — no shortcuts required.
@@ -117,20 +121,25 @@ git config pull.rebase false
 
 ## 🚀 Usage
 
-1. *Make an initial commit* using **Ctrl+Shift+M**
+1. *Make an initial commit* using **Ctrl+Shift+M** | *use status bar icon*
+
     - Enter a message like *base / initial / level-0 / etc.* This creates the baseline for the commit trail.
 
-2. *Start a session* with **Ctrl+Shift+T**
+2. *Start a session* with **Ctrl+Shift+T** | *use status bar icon*
+
     - Example: ```session/topic/feature-name/story#/task-name/experiment-name/...```. This tag will be used as commit prefix for easy grouping.
 
 3. *Work and take snapshots* with
-    - *Quick commit* **Ctrl+Shift+C**: tag@timestamp1, tag@timestamp2...
-    - *Prompt commit* **Ctrl+Shift+M**: edit the prefilled message for future reference.
 
-4. *Branch* off your big milestones with **Alt+Shift+B**
+    - *Quick commit* **Ctrl+Shift+C** | *use status bar icon*: for quick commit with message: tag@timestamp1, tag@timestamp2...
+    - *Prompt commit* **Ctrl+Shift+M** | *use status bar icon* : edit the prefilled message for future reference.
+
+4. *Branch* off your big milestones with **Alt+Shift+B** | *use status bar icon*
+
     - Example: ```experiment-objects```.
 
-5. *Optional small milestone tags* with **Ctrl+Shift+T**
+5. *Optional small milestone tags* with **Ctrl+Shift+T** | *use status bar icon*
+
     - to mark small checkpoints (e.g., milestone-1).
 
 6. *Review* history with any git visual tools/extensions.
