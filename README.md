@@ -10,6 +10,19 @@ git-snapshots makes Git commits simple, fast, and easy for instant snapshots wit
 - [Backup Folder](https://marketplace.visualstudio.com/items?itemName=spajs.backup-folder)
 - [Backup File](https://marketplace.visualstudio.com/items?itemName=spajs.backup-file)
 
+## 🚀 Installation
+
+- Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.git-snapshots)
+
+- Command Line: `code --install-extension spajs.git-snapshots`
+
+OR
+
+1. Open VS Code
+2. Go to Extensions
+3. Search "git snapshots" and select this extension
+4. Click **Install**
+
 ## ✨ Features:
 
 With Git Snapshots, you’ll never touch the terminal for everyday Git tasks. Your history stays clean, your workflow stays smooth, and your focus stays on building.
