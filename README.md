@@ -16,9 +16,9 @@ You don't really require remote (origin) repository. For personal learning/exper
 git-snapshots makes Git commits simple, fast, and easy for instant snapshots without commands.
 
 ##### Other related extensions without Git (for non-git environments)
-- [Backup Folder](https://marketplace.visualstudio.com/items?itemName=spajs.backup-folder)
-- [Backup File](https://marketplace.visualstudio.com/items?itemName=spajs.backup-file)
-
+- [Backup File](https://marketplace.visualstudio.com/items?itemName=spajs.backup-file) - For single file snapshots.
+- [Tagged Snapshots](https://marketplace.visualstudio.com/items?itemName=SPAjs.tagged-snapshots) - For Tagged snapshots of editor files (all/active tab group)
+- [Backup Folder](https://marketplace.visualstudio.com/items?itemName=spajs.backup-folder) - To backup/snapshot a folder.
 
 ## ⚡ Quick Start
 
