@@ -1,4 +1,4 @@
-# Git Snapshots (VS Code Extension)
+# Git Snapshots (VS Code family extension)
 
 <p align="center">
   <img src="images/icon-sm.png" alt="Git Snapshots logo" width="120"/>
@@ -15,10 +15,33 @@ You don't really require remote (origin) repository. For personal learning/exper
 
 git-snapshots makes Git commits simple, fast, and easy for instant snapshots without commands.
 
-##### Other related extensions without Git (for non-git environments)
-- [Backup File](https://marketplace.visualstudio.com/items?itemName=spajs.backup-file) - For single file snapshots.
-- [Tagged Snapshots](https://marketplace.visualstudio.com/items?itemName=SPAjs.tagged-snapshots) - For Tagged snapshots of editor files (all/active tab group)
-- [Backup Folder](https://marketplace.visualstudio.com/items?itemName=spajs.backup-folder) - To backup/snapshot a folder.
+##### Other related extensions
+
+- Git SSH Config Manager -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.git-ssh-config-manager)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/git-ssh-config-manager)
+
+- Git Pull Agent -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.git-pull-agent)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/git-pull-agent)
+
+
+- Backup File -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.backup-file)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/backup-file)
+
+- Tagged File Snapshots -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.tagged-file-snapshots)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/tagged-file-snapshots)
+
+- Tagged Snapshots -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=SPAjs.tagged-snapshots)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/tagged-snapshots)
+
+- Backup Folder -
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.backup-folder)
+  | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/backup-folder)
+
 
 ## ⚡ Quick Start
 
@@ -29,7 +52,7 @@ git-snapshots makes Git commits simple, fast, and easy for instant snapshots wit
 
 ## 🚀 Installation
 
-- Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.git-snapshots)
+- Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=spajs.git-snapshots) | [Open VSX Registry](https://open-vsx.org/extension/SPAjs/git-snapshots)
 
 - Command Line: `code --install-extension spajs.git-snapshots`
 
@@ -250,7 +273,7 @@ git config --global credential.helper store   # saves in plain text (simple but 
     > `-f ~/.ssh/id_ed25519-github-key1` → file path and name for the key pair. Recommended descriptive filenames. Ex: id_ed25519-github, id_ed25519-work, etc.
 
 
-2. Add to remote repo SSH settings (ex: GitHub):
+2. Add to repository provider's SSH settings (ex: GitHub):
 
     Copy the content of public key `~/.ssh/id_ed25519-github-key1.pub` into GitHub (/your remote repo) → Settings → SSH and GPG keys.
 
